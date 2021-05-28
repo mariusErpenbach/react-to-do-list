@@ -4,17 +4,23 @@ body {
   align-items: center;
   justify-content: center;
   background-color: lightgray;
+  
 }
 // Text input
 input[type="text"] {
   border: 0 none;
   width: 8rem;
 }
+// Submit input
+input[type="submit"]{
+  background-color:azure;
+}
 // Every other list item
 li:nth-child(2n) {
-  background-color: orange;
+  background-color: rgba(243, 219, 113, 0.671);
 }
 // To remove style from list
 li {
+  background-color:azure;
   list-style: none;
 }

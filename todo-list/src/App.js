@@ -7,9 +7,11 @@ import ToDos from "./components/ToDos";
 function App() {
   const [list, setList] = useState([]);
   const remove = (itemToRemove) => {
+    console.log(itemToRemove)
     // itemToRemove has the id for that specific item
     const newArr = list.filter((item) => item.id !== itemToRemove);
     setList(newArr);
+    
   };
   const check = (itemToCheck) => {
     // itemToCheck has the id for that specific item
