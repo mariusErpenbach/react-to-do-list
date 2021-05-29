@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const List = (props) => {
-  //   console.log(props);
+//  console.log(props);
   //   console.log(props.setList);
   const [userInput, setUserInput] = useState("");
   function changeHandle(e) {
